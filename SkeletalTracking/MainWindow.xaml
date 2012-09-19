@@ -1,0 +1,13 @@
+﻿<Window x:Class="SkeletalTracking.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="800" Closed="Window_Closed" Loaded="Window_Loaded" KeyDown="keyPressed">
+    <Canvas Name="MainCanvas" KeyDown="keyPressed">
+        <Image Canvas.Left="0" Canvas.Top="0" Height="530" Name="image1" Stretch="Fill" Width="690" Opacity="0.5" />
+        <Label Canvas.Left="334" Canvas.Top="211" Content="RHand" Height="42" Name="RHand" Width="90" FontWeight="Bold" FontSize="24" />
+        <Label Canvas.Left="198" Canvas.Top="137" Content="Person" Height="46" Name="Person" Width="91" FontWeight="Bold" FontSize="24" />
+        <Image Canvas.Left="90" Canvas.Top="9" Height="540" Name="AshHouse" Stretch="Fill" Width="600" />
+        <Image Canvas.Left="330" Canvas.Top="228" Height="60" Name="Ash" Stretch="Fill" Width="60" />
+
+    </Canvas>
+</Window>
