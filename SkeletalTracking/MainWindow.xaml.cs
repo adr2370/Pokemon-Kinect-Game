@@ -60,7 +60,7 @@ namespace SkeletalTracking
             try
             {
                 #region makeHouse
-                Bitmap ashHouseBitmap = new Bitmap(@"C:\\Users\\Alexander Ramirez\\Desktop\\Blue Map\\Ash House.bmp");
+                Bitmap ashHouseBitmap = new Bitmap(@"C:\\Users\\Alexander Ramirez\\Dropbox\\Github Repos\\Pokemon-Kinect-Game\\SkeletalTracking\\Tilesets\\18.bmp");
                 Bitmap ashHouseUpstairs = new Bitmap(16 * 16, 16 * 16);
                 for (int a = 0; a < 16; a++)
                 {
@@ -369,7 +369,7 @@ namespace SkeletalTracking
             BitmapSource bitSrc = System.Windows.Interop.Imaging.CreateBitmapSourceFromHBitmap(hbit, IntPtr.Zero, Int32Rect.Empty, BitmapSizeOptions.FromEmptyOptions());
             ImageSource thing = bitSrc;
             AshHouse.Source = thing;
-            Bitmap ashBitmap = new Bitmap(@"C:\\Users\\Alexander Ramirez\\Desktop\\Pokemon Kinect Game\\Ash Image.png");
+            Bitmap ashBitmap = new Bitmap(@"C:\\Users\\Alexander Ramirez\\Dropbox\\Github Repos\\Pokemon-Kinect-Game\\Ash Image.png");
             Bitmap ash = new Bitmap(2 * 16, 2 * 16);
             for (int i = 0; i < 32; i++)
             {
